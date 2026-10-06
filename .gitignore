@@ -1,27 +1,17 @@
-# ==========================================
-# 1. DEPENDÊNCIAS
-# ==========================================
+
 node_modules/
 jspm_packages/
 pnp.js
 .pnp.js
 
-
-# ==========================================
-# 2. VARIÁVEIS DE AMBIENTE E SEGREDOS
-# (Onde ficam senhas, tokens, chaves de API e conexões com banco)
-# ==========================================
+==========================================
 .env
 .env.local
 .env.development
 .env.production
 *.env
 
-
-# ==========================================
-# 3. BANCOS DE DADOS LOCAIS
-# (Arquivos de banco salvos direto no PC)
-# ==========================================
+==========================================
 *.sqlite
 *.sqlite3
 *.db
@@ -31,11 +21,7 @@ db/
 backups/
 dump.sql
 
-
-# ==========================================
-# 4. COMPILAÇÃO E DISTRIBUIÇÃO (BUILD)
-# (Se o seu projeto gerar arquivos finais ou compilados)
-# ==========================================
+==========================================
 dist/
 build/
 out/
@@ -44,10 +30,7 @@ public/build/
 .next/
 .nuxt/
 
-
-# ==========================================
-# 5. LOGS E ERROS
-# ==========================================
+==========================================
 logs
 *.log
 npm-debug.log*
@@ -57,18 +40,14 @@ pnpm-debug.log*
 lerna-debug.log*
 
 
-# ==========================================
-# 6. TESTES E COBERTURA
-# ==========================================
+==========================================
 coverage/
 .nyc_output/
 .jest/
 test-results/
 
 
-# ==========================================
-# 7. CACHES DE FERRAMENTAS E LINTERS
-# ==========================================
+==========================================
 .npm
 .eslintcache
 .stylelintcache
@@ -77,10 +56,7 @@ test-results/
 .turbo/
 
 
-# ==========================================
-# 8. CONFIGURAÇÕES DO SISTEMA OPERACIONAL
-# (Arquivos automáticos do Windows, Mac e Linux)
-# ==========================================
+==========================================
 .DS_Store
 .DS_Store?
 ._*
@@ -91,10 +67,7 @@ Thumbs.db
 Desktop.ini
 
 
-# ==========================================
-# 9. EDITORES DE CÓDIGO
-# (Configurações pessoais do VS Code, WebStorm, etc.)
-# ==========================================
+=========================================
 .vscode/
 .idea/
 *.suo
